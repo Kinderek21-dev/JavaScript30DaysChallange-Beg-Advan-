@@ -20,8 +20,10 @@
     font-size: 70px;
     background-color: black;
     height: 200px;
-    width: 60%;
+    width: 130vh;
     color: red;
+    align-items: center;
+    justify-content: center;
     
 }
 .cosik {
