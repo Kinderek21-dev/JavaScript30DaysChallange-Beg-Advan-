@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.tablica {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border: 15px solid rgba(70, 70, 70, 0.853);
+    border-radius: 20px;
+    font-size: 70px;
+    background-color: black;
+    height: 200px;
+    width: 60%;
+    color: red;
+    
+}
+.cosik {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cosik span {
+    font-size: 20px ;
+    color: grey;
+}
