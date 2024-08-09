@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table id="tabelka">
+        <tr>
+            <td colspan="4">
+                <div class="input-container">
+                    <input type="text" id="wynik" readonly> 
+                    <button id="clear-btn" onclick="Usun()">←</button>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                <input type="button" value="1" id="btn" onclick="gowno('1')">
+            </th>
+            <th>
+                <input type="button" value="2" id="btn" onclick="gowno('2')">
+            </th>
+            <th>
+                <input type="button" value="3" id="btn" onclick="gowno('3')">
+            </th>
+            <th>
+                <input type="button" value="=" id="" onclick="Obliczenia()" >
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <input type="button" value="4" id="btn" onclick="gowno('4')">
+            </th>
+            <th>
+                <input type="button" value="5" id="btn" onclick="gowno('5')">
+            </th>
+            <th>
+                <input type="button" value="6" id="btn" onclick="gowno('6')">
+            </th>
+            <th>
+                <input type="button" value="+" id="btn" onclick="gowno('+')">
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <input type="button" value="7" id="btn" onclick="gowno('7')">
+            </th>
+            <th>
+                <input type="button" value="8" id="btn" onclick="gowno('8')">
+            </th>
+            <th><input type="button" value="9" id="btn" onclick="gowno('9')">
+            </th>
+            <th><input type="button" value="-" id="btn" onclick="gowno('-')">
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <input type="button" value="c" id="btn" onclick="Czyszczenie()">
+            </th>
+            <th>
+                <input type="button" value="0" id="btn" onclick="gowno('0')">
+            </th>
+            <th>
+                <input type="button" value="*" id="btn" onclick="gowno('*')">
+            </th>
+            <th>
+                <input type="button" value="/" id="btn" onclick="gowno('/')">
+            </th>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>

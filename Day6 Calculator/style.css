@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+#tabelka{
+    border: 10px solid black;
+    border-collapse: collapse;
+    width: 25%;
+    text-align: center; 
+    margin: auto;
+    height: 55vh;
+}
+#tabelka tr td {
+    border: 3px black solid;
+}
+#tabelka tr td input {
+    border: 1px black solid;
+    width: 80%;
+    height: 70%;
+    font-size: 55px;
+    font-weight: 700;
+    text-align: center;
+}
+#tabelka tr  th input[type="button"]{
+    border: 4px solid black;
+    height: 75%;
+    width: 50%;
+    font-size: 50px;
+    background-color: rgb(223, 228, 222);
+}
+
+#clear-btn{
+    border: 2px solid black;
+    height: 75%;
+    width: 30%;
+    font-size: 50px;
+}
+.input-container {
+    display: flex;         
+    align-items: center;    
+}
